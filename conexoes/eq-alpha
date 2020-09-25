@@ -1,0 +1,11 @@
+200.198.178.30
+2222
+##### EQ ALPHA #####
+# Rede dados Alpha 10.2.40.0/21
+edit 239
+# Rede voz Alpha 10.3.40.0/21
+edit 260
+# Rede VPN Alpha 10.3.45.0/24
+edit 404
+# Rede VPN Alpha 10.3.45.0/24
+edit 410

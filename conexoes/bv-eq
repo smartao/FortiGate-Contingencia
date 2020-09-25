@@ -1,0 +1,12 @@
+189.125.223.34
+2222
+##### BV-EQ #####
+# Redes dados EQ 10.2.0.0/19
+edit 468
+# Rede voz EQ 10.3.0.0/19
+edit 467
+# Rede storage EQ 192.168.200.0/23
+edit 454
+# Rede servidores EQ 10.200.0.0/21
+edit 456
+

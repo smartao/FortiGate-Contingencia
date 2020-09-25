@@ -1,0 +1,11 @@
+201.22.56.144
+22
+##### CWB-EQ #####
+# Redes dados EQ 10.2.0.0/19
+edit 153
+# Rede voz EQ 10.3.0.0/19
+edit 159
+# Rede storage EQ 192.168.200.0/23
+edit 27
+# Rede servidores EQ 10.200.0.0/21
+edit 15

@@ -1,0 +1,10 @@
+200.142.99.186
+22
+##### TEO-EQ #####
+# Redes dados EQ 10.2.0.0/19
+edit 157
+# Rede voz EQ 10.3.0.0/19
+edit 155
+# Rede servidores EQ 10.200.0.0/21
+edit 8
+# NAO ADICIONAR REDE DE STORAGE POIS JA ESTA VIA VPN

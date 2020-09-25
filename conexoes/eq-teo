@@ -1,0 +1,10 @@
+200.198.178.30
+2222
+##### EQ-TEO #####
+# Rede dados TEO 10.2.56.0/21
+edit 326
+# Rede voz TEO 10.3.56.0/21
+edit 328
+# Rede vpn TEO 10.3.61.0/24
+edit 395
+# NAO ADICIONAR REDE DE STORAGE POIS JA ESTA VIA VPN

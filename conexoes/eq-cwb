@@ -1,0 +1,10 @@
+200.198.178.30
+2222
+##### EQ-CWB #####
+# Rede dados CWB 10.2.56.0/21
+edit 295
+# Rede voz CWB 10.3.56.0/21
+edit 304
+# Rede vpn CWB 10.3.61.0/24
+edit 399
+

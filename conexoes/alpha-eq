@@ -1,0 +1,11 @@
+10.2.40.200
+2222
+##### ALPHA-EQ #####
+# Redes dados EQ 10.2.0.0/19
+edit 131
+# Rede voz EQ 10.3.0.0/19
+edit 155
+# Rede storage EQ 192.168.200.0/23
+edit 9
+# Rede servidores EQ 10.200.0.0/21
+edit 5

@@ -1,0 +1,13 @@
+200.198.178.30
+2222
+##### EQ BV #####
+# Rede dados BV 10.2.64.0/21
+edit 438
+# Rede voz BV 10.3.64.0/21
+edit 387
+# Rede VPN BV 10.4.64.0/21
+edit 383
+# Rede Servidores VPN BV 10.200.164.0/24
+edit 443
+# Rede servidores producao BV 10.200.64.0/24
+edit 442
