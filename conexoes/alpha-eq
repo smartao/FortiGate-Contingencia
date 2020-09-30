@@ -2,6 +2,7 @@
 2222
 ##### ALPHA-EQ #####
 # Redes dados EQ 10.2.0.0/19
+# edit 222222
 edit 131
 # Rede voz EQ 10.3.0.0/19
 edit 155

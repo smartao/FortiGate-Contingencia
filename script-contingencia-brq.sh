@@ -141,7 +141,7 @@ function GERASCRIPT(){
         echo "#!/bin/bash" > $DIRSCRIPT/$ARQROTAS # Cabeçalho do script
         echo "ssh -p $PORTA admin@$IP << EOF" >> $DIRSCRIPT/$ARQROTAS # Conectando no FW via ssh
         echo "config router static" >> $DIRSCRIPT/$ARQROTAS # Comando fortigate de rotas
-        for rota in $(cat $DIRCON/$arq | grep -i edit | cut -d" " -f 2)
+        for rota in $(cat $DIRCON/$arq | grep -i ^edit | cut -d" " -f 2)
         do 
             echo "edit $rota" >> $DIRSCRIPT/$ARQROTAS # Editando a rota
             echo "set priority $PRIO" >> $DIRSCRIPT/$ARQROTAS # Alterando a prioridade da rota
